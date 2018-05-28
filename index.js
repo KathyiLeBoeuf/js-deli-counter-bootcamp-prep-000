@@ -19,7 +19,7 @@ function nowServing(array) {
 
 function currentLine(katzDeliLine) {
   
-  let string = 'The line is currently: '
+  let string = 'The line is currently:'
   let namesNumbers = [];
   
   if(katzDeliLine.length === 0){
