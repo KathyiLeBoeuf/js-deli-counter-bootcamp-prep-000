@@ -29,7 +29,7 @@ function currentLine(katzDeliLine) {
       
   if (katzDeliLine.length > 0) {
   
-  string += `${n++}. ${katzDeliLine[i]},`
+  string += `${n}. ${katzDeliLine[i]},`
   n++;
   }
 }
