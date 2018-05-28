@@ -20,7 +20,7 @@ function nowServing(array) {
 function currentLine(katzDeliLine) {
    let n = 0; 
   for(let i = 0; i < katzDeliLine.length; i++){
-    //for(let n = 1; n < katzDeliLine.length; n++)
+    
     
   if (katzDeliLine.length > 0) {
    n++;
@@ -33,6 +33,13 @@ function currentLine(katzDeliLine) {
 
 // 3.2 ========================
 /*
+
+var myStringArray = ["Hello","World"];
+var arrayLength = myStringArray.length;
+for (var i = 0; i < arrayLength; i++) {
+    alert(myStringArray[i]);
+    =====+++++++++++++++++++++++++++
+//for(let n = 1; n < katzDeliLine.length; n++)
 function currentLine(katzDeliLine) {
     let n = 0;
     for(let i = 0; i < katzDeliLine.length; i++) {
