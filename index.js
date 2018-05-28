@@ -31,8 +31,6 @@ function currentLine(katzDeliLine) {
   n++;
   string += `${n++}. ${katzDeliLine[i]},`
   
-  }else{
-   
   }
 }
 return string;
