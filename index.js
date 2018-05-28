@@ -19,7 +19,7 @@ function nowServing(array) {
 
 function currentLine(katzDeliLine) {
    let n = 0; 
-  {
+  
     
   if (katzDeliLine.length > 0) {
     for(let i = 0; i < katzDeliLine.length; i++)
@@ -29,7 +29,7 @@ function currentLine(katzDeliLine) {
   return "The line is currently empty."
 }
 }
-}
+
 
 // 3.2 ========================
 /*
