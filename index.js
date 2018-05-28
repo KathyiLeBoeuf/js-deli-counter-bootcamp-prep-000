@@ -20,7 +20,6 @@ function nowServing(array) {
 function currentLine(katzDeliLine) {
    let n = 0; 
   
-    
   if (katzDeliLine.length > 0) {
     for(let i = 0; i < katzDeliLine.length; i++)
    n++;
