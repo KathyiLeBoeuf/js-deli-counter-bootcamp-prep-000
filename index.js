@@ -34,7 +34,7 @@ function currentLine(katzDeliLine) {
  namesNumbers.push(`${n}. ${katzDeliLine[i]}`);
   }
 }
-return string;
+return `${string}`;
 }
 
 
