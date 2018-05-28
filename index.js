@@ -15,7 +15,7 @@ function nowServing(array) {
     return "There is nobody waiting to be served!"
   }
 }
-// 3====================================== partly worked
+// 3====================================== 
 
 function currentLine(katzDeliLine) {
    let n = 0; 
