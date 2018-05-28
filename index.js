@@ -30,7 +30,7 @@ function currentLine(katzDeliLine) {
       
   if (katzDeliLine.length > 0) {
    n++;
- // string += `${n}. ${katzDeliLine[i]}, `
+ 
  namesNumbers.push(`${n}. ${katzDeliLine[i]}`);
   }
 }
@@ -38,3 +38,4 @@ return `${string} ${namesNumbers.join(', ')}`;
 }
 
 
+// string += `${n}. ${katzDeliLine[i]}, `
