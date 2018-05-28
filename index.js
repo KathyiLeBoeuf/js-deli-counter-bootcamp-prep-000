@@ -18,9 +18,10 @@ function nowServing(array) {
 // 3====================================== partly worked
 
 function currentLine(katzDeliLine) {
-   let n = 0; 
+   
     
   if (katzDeliLine.length > 0) {
+    let n = 0; 
   for(let i = 0; i < katzDeliLine.length; i++)
   n++;
   return `The line is currently: ${n++}. ${katzDeliLine[i]},`;
