@@ -30,7 +30,7 @@ function currentLine(katzDeliLine) {
    "The line is currently empty.";
   }
 }
-return;
+return string;
 }
 
 
