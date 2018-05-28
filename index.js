@@ -18,17 +18,18 @@ function nowServing(array) {
 
 
 function currentLine(katzDeliLine) {
-  let n = 0; 
+  
   let string = 'The line is currently: '
   
   if(katzDeliLine.length === 0){
     return "The line is currently empty.";
   }
+  let n = 0; 
   for(let i = 0; i < katzDeliLine.length; i++) {
       
   if (katzDeliLine.length > 0) {
   n++;
-  string.push(`${n++}. ${katzDeliLine[i]},`)
+  string += `${n++}. ${katzDeliLine[i]},`
   
   }else{
    
