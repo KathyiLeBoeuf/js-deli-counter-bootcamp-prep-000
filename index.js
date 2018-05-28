@@ -21,7 +21,6 @@ function currentLine(katzDeliLine) {
    let n = 0; 
   for(let i = 0; i < katzDeliLine.length; i++){
     
-    
   if (katzDeliLine.length > 0) {
    n++;
   return `The line is currently: ${n++}. ${katzDeliLine[i]},`
